@@ -444,12 +444,12 @@ int menu()
 
 int main()
 {
-    
+
 #ifdef _WIN32
     SetConsoleOutputCP(65001); // configura a codificação de caracteres no Windows
 #endif
 
-    menu(); // chama o menu principal
+    menu(); // chama o menu principal.
 
     return 0;
 }
